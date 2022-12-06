@@ -1,0 +1,74 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1207.ve6191ff089f8">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <org.jenkinsci.plugins.gwt.GenericCause plugin="generic-webhook-trigger@1.84">
+            <resolvedVariables class="tree-map">
+              <entry>
+                <string>ref</string>
+                <string>refs/heads/ci-cd-test</string>
+              </entry>
+            </resolvedVariables>
+            <postContent>{&quot;ref&quot;:&quot;refs/heads/ci-cd-test&quot;,&quot;before&quot;:&quot;886f74d07af1283a3387e8b0b6ab321d1230203d&quot;,&quot;after&quot;:&quot;e6bfcc277acb7bf7847974eff595e4c860cd2228&quot;,&quot;repository&quot;:{&quot;id&quot;:509672932,&quot;node_id&quot;:&quot;R_kgDOHmD95A&quot;,&quot;name&quot;:&quot;e-room&quot;,&quot;full_name&quot;:&quot;e-room/e-room&quot;,&quot;private&quot;:false,&quot;owner&quot;:{&quot;name&quot;:&quot;e-room&quot;,&quot;email&quot;:null,&quot;login&quot;:&quot;e-room&quot;,&quot;id&quot;:108541185,&quot;node_id&quot;:&quot;O_kgDOBng1AQ&quot;,&quot;avatar_url&quot;:&quot;https://avatars.githubusercontent.com/u/108541185?v=4&quot;,&quot;gravatar_id&quot;:&quot;&quot;,&quot;url&quot;:&quot;https://api.github.com/users/e-room&quot;,&quot;html_url&quot;:&quot;https://github.com/e-room&quot;,&quot;followers_url&quot;:&quot;https://api.github.com/users/e-room/followers&quot;,&quot;following_url&quot;:&quot;https://api.github.com/users/e-room/following{/other_user}&quot;,&quot;gists_url&quot;:&quot;https://api.github.com/users/e-room/gists{/gist_id}&quot;,&quot;starred_url&quot;:&quot;https://api.github.com/users/e-room/starred{/owner}{/repo}&quot;,&quot;subscriptions_url&quot;:&quot;https://api.github.com/users/e-room/subscriptions&quot;,&quot;organizations_url&quot;:&quot;https://api.github.com/users/e-room/orgs&quot;,&quot;repos_url&quot;:&quot;https://api.github.com/users/e-room/repos&quot;,&quot;events_url&quot;:&quot;https://api.github.com/users/e-room/events{/privacy}&quot;,&quot;received_events_url&quot;:&quot;https://api.github.com/users/e-room/received_events&quot;,&quot;type&quot;:&quot;Organization&quot;,&quot;site_admin&quot;:false},&quot;html_url&quot;:&quot;https://github.com/e-room/e-room&quot;,&quot;description&quot;:&quot;e-room project repository&quot;,&quot;fork&quot;:false,&quot;url&quot;:&quot;https://github.com/e-room/e-room&quot;,&quot;forks_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/forks&quot;,&quot;keys_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/keys{/key_id}&quot;,&quot;collaborators_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/collaborators{/collaborator}&quot;,&quot;teams_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/teams&quot;,&quot;hooks_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/hooks&quot;,&quot;issue_events_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/issues/events{/number}&quot;,&quot;events_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/events&quot;,&quot;assignees_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/assignees{/user}&quot;,&quot;branches_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/branches{/branch}&quot;,&quot;tags_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/tags&quot;,&quot;blobs_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/git/blobs{/sha}&quot;,&quot;git_tags_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/git/tags{/sha}&quot;,&quot;git_refs_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/git/refs{/sha}&quot;,&quot;trees_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/git/trees{/sha}&quot;,&quot;statuses_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/statuses/{sha}&quot;,&quot;languages_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/languages&quot;,&quot;stargazers_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/stargazers&quot;,&quot;contributors_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/contributors&quot;,&quot;subscribers_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/subscribers&quot;,&quot;subscription_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/subscription&quot;,&quot;commits_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/commits{/sha}&quot;,&quot;git_commits_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/git/commits{/sha}&quot;,&quot;comments_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/comments{/number}&quot;,&quot;issue_comment_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/issues/comments{/number}&quot;,&quot;contents_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/contents/{+path}&quot;,&quot;compare_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/compare/{base}...{head}&quot;,&quot;merges_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/merges&quot;,&quot;archive_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/{archive_format}{/ref}&quot;,&quot;downloads_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/downloads&quot;,&quot;issues_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/issues{/number}&quot;,&quot;pulls_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/pulls{/number}&quot;,&quot;milestones_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/milestones{/number}&quot;,&quot;notifications_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/notifications{?since,all,participating}&quot;,&quot;labels_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/labels{/name}&quot;,&quot;releases_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/releases{/id}&quot;,&quot;deployments_url&quot;:&quot;https://api.github.com/repos/e-room/e-room/deployments&quot;,&quot;created_at&quot;:1656741753,&quot;updated_at&quot;:&quot;2022-07-02T06:03:59Z&quot;,&quot;pushed_at&quot;:1662229789,&quot;git_url&quot;:&quot;git://github.com/e-room/e-room.git&quot;,&quot;ssh_url&quot;:&quot;git@github.com:e-room/e-room.git&quot;,&quot;clone_url&quot;:&quot;https://github.com/e-room/e-room.git&quot;,&quot;svn_url&quot;:&quot;https://github.com/e-room/e-room&quot;,&quot;homepage&quot;:null,&quot;size&quot;:1027,&quot;stargazers_count&quot;:0,&quot;watchers_count&quot;:0,&quot;language&quot;:&quot;Java&quot;,&quot;has_issues&quot;:true,&quot;has_projects&quot;:true,&quot;has_downloads&quot;:true,&quot;has_wiki&quot;:true,&quot;has_pages&quot;:false,&quot;forks_count&quot;:0,&quot;mirror_url&quot;:null,&quot;archived&quot;:false,&quot;disabled&quot;:false,&quot;open_issues_count&quot;:6,&quot;license&quot;:null,&quot;allow_forking&quot;:true,&quot;is_template&quot;:false,&quot;web_commit_signoff_required&quot;:false,&quot;topics&quot;:[],&quot;visibility&quot;:&quot;public&quot;,&quot;forks&quot;:0,&quot;open_issues&quot;:6,&quot;watchers&quot;:0,&quot;default_branch&quot;:&quot;master&quot;,&quot;stargazers&quot;:0,&quot;master_branch&quot;:&quot;master&quot;,&quot;organization&quot;:&quot;e-room&quot;},&quot;pusher&quot;:{&quot;name&quot;:&quot;LarryKwon&quot;,&quot;email&quot;:&quot;65128957+LarryKwon@users.noreply.github.com&quot;},&quot;organization&quot;:{&quot;login&quot;:&quot;e-room&quot;,&quot;id&quot;:108541185,&quot;node_id&quot;:&quot;O_kgDOBng1AQ&quot;,&quot;url&quot;:&quot;https://api.github.com/orgs/e-room&quot;,&quot;repos_url&quot;:&quot;https://api.github.com/orgs/e-room/repos&quot;,&quot;events_url&quot;:&quot;https://api.github.com/orgs/e-room/events&quot;,&quot;hooks_url&quot;:&quot;https://api.github.com/orgs/e-room/hooks&quot;,&quot;issues_url&quot;:&quot;https://api.github.com/orgs/e-room/issues&quot;,&quot;members_url&quot;:&quot;https://api.github.com/orgs/e-room/members{/member}&quot;,&quot;public_members_url&quot;:&quot;https://api.github.com/orgs/e-room/public_members{/member}&quot;,&quot;avatar_url&quot;:&quot;https://avatars.githubusercontent.com/u/108541185?v=4&quot;,&quot;description&quot;:&quot;&quot;},&quot;sender&quot;:{&quot;login&quot;:&quot;LarryKwon&quot;,&quot;id&quot;:65128957,&quot;node_id&quot;:&quot;MDQ6VXNlcjY1MTI4OTU3&quot;,&quot;avatar_url&quot;:&quot;https://avatars.githubusercontent.com/u/65128957?v=4&quot;,&quot;gravatar_id&quot;:&quot;&quot;,&quot;url&quot;:&quot;https://api.github.com/users/LarryKwon&quot;,&quot;html_url&quot;:&quot;https://github.com/LarryKwon&quot;,&quot;followers_url&quot;:&quot;https://api.github.com/users/LarryKwon/followers&quot;,&quot;following_url&quot;:&quot;https://api.github.com/users/LarryKwon/following{/other_user}&quot;,&quot;gists_url&quot;:&quot;https://api.github.com/users/LarryKwon/gists{/gist_id}&quot;,&quot;starred_url&quot;:&quot;https://api.github.com/users/LarryKwon/starred{/owner}{/repo}&quot;,&quot;subscriptions_url&quot;:&quot;https://api.github.com/users/LarryKwon/subscriptions&quot;,&quot;organizations_url&quot;:&quot;https://api.github.com/users/LarryKwon/orgs&quot;,&quot;repos_url&quot;:&quot;https://api.github.com/users/LarryKwon/repos&quot;,&quot;events_url&quot;:&quot;https://api.github.com/users/LarryKwon/events{/privacy}&quot;,&quot;received_events_url&quot;:&quot;https://api.github.com/users/LarryKwon/received_events&quot;,&quot;type&quot;:&quot;User&quot;,&quot;site_admin&quot;:false},&quot;created&quot;:false,&quot;deleted&quot;:false,&quot;forced&quot;:false,&quot;base_ref&quot;:null,&quot;compare&quot;:&quot;https://github.com/e-room/e-room/compare/886f74d07af1...e6bfcc277acb&quot;,&quot;commits&quot;:[{&quot;id&quot;:&quot;e6bfcc277acb7bf7847974eff595e4c860cd2228&quot;,&quot;tree_id&quot;:&quot;41db2b07297a00ba06ea723d8bf4ed6f431e38bb&quot;,&quot;distinct&quot;:true,&quot;message&quot;:&quot;test&quot;,&quot;timestamp&quot;:&quot;2022-09-04T03:29:39+09:00&quot;,&quot;url&quot;:&quot;https://github.com/e-room/e-room/commit/e6bfcc277acb7bf7847974eff595e4c860cd2228&quot;,&quot;author&quot;:{&quot;name&quot;:&quot;larrykwon&quot;,&quot;email&quot;:&quot;koallarry11@kaist.ac.kr&quot;,&quot;username&quot;:&quot;LarryKwon&quot;},&quot;committer&quot;:{&quot;name&quot;:&quot;larrykwon&quot;,&quot;email&quot;:&quot;koallarry11@kaist.ac.kr&quot;,&quot;username&quot;:&quot;LarryKwon&quot;},&quot;added&quot;:[&quot;src/main/java/com/project/Project/cicdtest&quot;],&quot;removed&quot;:[],&quot;modified&quot;:[]}],&quot;head_commit&quot;:{&quot;id&quot;:&quot;e6bfcc277acb7bf7847974eff595e4c860cd2228&quot;,&quot;tree_id&quot;:&quot;41db2b07297a00ba06ea723d8bf4ed6f431e38bb&quot;,&quot;distinct&quot;:true,&quot;message&quot;:&quot;test&quot;,&quot;timestamp&quot;:&quot;2022-09-04T03:29:39+09:00&quot;,&quot;url&quot;:&quot;https://github.com/e-room/e-room/commit/e6bfcc277acb7bf7847974eff595e4c860cd2228&quot;,&quot;author&quot;:{&quot;name&quot;:&quot;larrykwon&quot;,&quot;email&quot;:&quot;koallarry11@kaist.ac.kr&quot;,&quot;username&quot;:&quot;LarryKwon&quot;},&quot;committer&quot;:{&quot;name&quot;:&quot;larrykwon&quot;,&quot;email&quot;:&quot;koallarry11@kaist.ac.kr&quot;,&quot;username&quot;:&quot;LarryKwon&quot;},&quot;added&quot;:[&quot;src/main/java/com/project/Project/cicdtest&quot;],&quot;removed&quot;:[],&quot;modified&quot;:[]}}</postContent>
+            <printContributedVariables>false</printContributedVariables>
+            <printPostContent>false</printPostContent>
+            <cause>Generic Cause</cause>
+          </org.jenkinsci.plugins.gwt.GenericCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters/>
+      <parameterDefinitionNames class="empty-list"/>
+    </hudson.model.ParametersAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@612.v84da_9c54906d">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>4</queueId>
+  <timestamp>1662229796502</timestamp>
+  <startTime>1662229796507</startTime>
+  <result>SUCCESS</result>
+  <duration>105</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script></script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>11128828</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>47025555</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>22044606</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>41826485</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>4989008</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>3</iota>
+    <head>1:3</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

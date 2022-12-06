@@ -1,0 +1,11 @@
+commit b99273df54731b9c02d23beb862221c8bd2dca95
+tree 64ba0b167508a0412a30ce111de2dcb6f53f30a8
+parent 11e807ee6e04bb8534a4a9a0c507d3d233ae661e
+author larrykwon <koallarry11@kaist.ac.kr> 2022-09-04 17:33:10 +0900
+committer larrykwon <koallarry11@kaist.ac.kr> 2022-09-04 17:33:10 +0900
+
+    fix Dockefile add env
+
+
+:100644 100644 3132f34177eb4fc9058604925d9c5c92de3d15b0 12d1c7210f9c15cf05d08fb2354df95512d10e13 M	Dockerfile
+:100644 100644 0cb9e83b7f4e25c598063a2dbc03b4588a09d78a 1fa38a3321148fb2b541f8a12d527c3af2ee6e68 M	src/main/resources/application.yml

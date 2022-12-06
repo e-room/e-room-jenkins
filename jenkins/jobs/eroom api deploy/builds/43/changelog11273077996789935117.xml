@@ -1,0 +1,10 @@
+commit 9f8baefbcaea354490d0d01f2e8d3dcd53ee3fc4
+tree 61613bc851f1ba62897775197fbe5833e557e71c
+parent 7c10b875b32d542c59723d04d553565669080750
+author larrykwon <koallarry11@kaist.ac.kr> 2022-09-04 18:14:45 +0900
+committer larrykwon <koallarry11@kaist.ac.kr> 2022-09-04 18:14:45 +0900
+
+    change log level to debug
+
+
+:100644 100644 ff49f39d801618dfe1c5637d4386b19120438acc a5312d6a759794cdd8532692a7816c7fa5bb667b M	src/main/resources/application.yml

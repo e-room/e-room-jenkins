@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-04 07:26:01.232 UTC</timestamp>
+  <md5sum>7df67c74a72dbc4738443401b18d4e47</md5sum>
+  <fileName>Credential id=ssh name=root</fileName>
+  <usages>
+    <entry>
+      <string>eroom api deploy</string>
+      <ranges>38-50,53-54</ranges>
+    </entry>
+    <entry>
+      <string>docker-run</string>
+      <ranges>1-11</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

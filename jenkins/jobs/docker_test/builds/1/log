@@ -1,0 +1,9 @@
+Started by user [8mha:////4K0iUKaOtbRLIIiD8oTBNHpVqzIOigt+nwlVBZzaU6w+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL91KL8/FwAuoRMJMAAAAA=[0mlarrykwon
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/docker_test
+[docker_test] $ /bin/sh -xe /tmp/jenkins14994419921603956395.sh
++ docker images
+REPOSITORY               TAG       IMAGE ID       CREATED             SIZE
+jenkins-docker_jenkins   latest    8008c15e4663   About an hour ago   480MB
+jenkins/jenkins          lts       df3dfd6f2043   8 days ago          461MB
+Finished: SUCCESS

@@ -1,0 +1,15 @@
+version: "3"
+services:
+  jenkins:
+    container_name: jenkins-compose
+    build:
+      context: jenkins-dockerfile
+      dockerfile: Dockerfile
+    user: root
+    ports:
+      - 8080:8080
+      - 50000:50000
+    volumes:
+      - /home/ubuntu/jenkins:/var/jenkins_home
+      - /home/ubuntu/.ssh:/root/.ssh
+      - /var/run/docker.sock:/var/run/docker.sock

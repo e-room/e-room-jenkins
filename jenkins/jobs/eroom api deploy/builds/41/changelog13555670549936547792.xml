@@ -1,0 +1,10 @@
+commit 7c10b875b32d542c59723d04d553565669080750
+tree f887a68c8bfedf55605a7bc0ca792df0a0600c74
+parent b99273df54731b9c02d23beb862221c8bd2dca95
+author larrykwon <koallarry11@kaist.ac.kr> 2022-09-04 17:58:36 +0900
+committer larrykwon <koallarry11@kaist.ac.kr> 2022-09-04 17:58:36 +0900
+
+    change log level to info
+
+
+:100644 100644 1fa38a3321148fb2b541f8a12d527c3af2ee6e68 ff49f39d801618dfe1c5637d4386b19120438acc M	src/main/resources/application.yml

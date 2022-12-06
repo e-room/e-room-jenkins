@@ -1,0 +1,12 @@
+version: "3"
+services:
+  spring:
+    container_name: eroom-api-compose
+    build:
+      context: eroom-api-dockerfile
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 8080:8080
+    volumes:
+      - /home/ubuntu/deploy:/deploy

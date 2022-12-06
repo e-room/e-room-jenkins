@@ -1,0 +1,25 @@
+Started by user [8mha:////4K0iUKaOtbRLIIiD8oTBNHpVqzIOigt+nwlVBZzaU6w+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL91KL8/FwAuoRMJMAAAAA=[0mlarrykwon
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/github_pull
+The recommended git tool is: NONE
+using credential github
+Cloning the remote Git repository
+Cloning repository https://github.com/e-room/e-room.git
+ > git init /var/jenkins_home/workspace/github_pull # timeout=10
+Fetching upstream changes from https://github.com/e-room/e-room.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_SSH to set credentials 
+Verifying host key using known hosts file
+[8mha:////4F+LKOhcQuMufEa6fUPyPrW8SQp90y5h1DOGBUvZnptpAAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgnFYgIpE6fjN+19fes8PTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+K1+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6Af/njhS1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Configure Global Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://github.com/e-room/e-room.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/e-room/e-room.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/ci-cd-test^{commit} # timeout=10
+Checking out Revision e6bfcc277acb7bf7847974eff595e4c860cd2228 (refs/remotes/origin/ci-cd-test)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfcc277acb7bf7847974eff595e4c860cd2228 # timeout=10
+Commit message: "test"
+First time build. Skipping changelog.
+Finished: SUCCESS

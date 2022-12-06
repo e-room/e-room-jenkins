@@ -1,0 +1,11 @@
+commit 64f77e7a9a2f80d35948f8a4cc0e3a9d51103e30
+tree e8772febb3136dc9f3c592a0bc84eb8da5d8d161
+parent 643678bb04a0f1934b0138a5aae17561879d80e6
+author larrykwon <koallarry11@kaist.ac.kr> 2022-09-04 20:48:43 +0900
+committer larrykwon <koallarry11@kaist.ac.kr> 2022-09-04 20:48:43 +0900
+
+    temporary include applicaiton-oauth.properties
+
+
+:100644 100644 0ebbede2ea117ed908062f1275aabb7235e01e75 7fbbb69db0427c641d0d4645cdbf84a95b10baa2 M	.gitignore
+:000000 100644 0000000000000000000000000000000000000000 9794498d89c6e96f65c589e0bf6f557d23d5143e A	src/main/resources/application-oauth.properties

@@ -1,0 +1,59 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1207.ve6191ff089f8">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2114.v2654ca_721309"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2114.v2654ca_721309">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2759.v87459c4eea_ca_">
+    <script>pipeline {
+    agent any
+
+    environment {
+        imagename = &quot;eroom-api-core&quot;
+        registryCredential = &apos;docker-hub&apos;
+        dockerImage = &apos;&apos;
+    }
+
+    stages {
+
+        stage(&apos;Bulid Docker&apos;) {
+          steps {
+            echo &apos;Bulid Docker&apos;
+            sh &apos;pwd&apos;
+            sh &apos;cd ./eroom-api-docker/eroom-api-dockerfile&apos;
+            dir(&apos;eroom-api-docker/eroom-api-dockerfile&apos;){
+            script {
+                dockerImage = docker.build imagename
+            }
+            }
+          }
+          post {
+            failure {
+              error &apos;This pipeline stops here...&apos;
+            }
+          }
+        }
+    }
+    post {
+        success {
+            slackSend (channel: &apos;#tech-deploy&apos;, color: &apos;#00FF00&apos;, message: &quot;SUCCESSFUL: Job &apos;${env.JOB_NAME} [${env.BUILD_NUMBER}]&apos; (${env.BUILD_URL})&quot;)
+        }
+        failure {
+            slackSend (channel: &apos;#tech-deploy&apos;, color: &apos;#FF0000&apos;, message: &quot;FAILED: Job &apos;${env.JOB_NAME} [${env.BUILD_NUMBER}]&apos; (${env.BUILD_URL})&quot;)
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

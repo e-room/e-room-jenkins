@@ -1,0 +1,28 @@
+commit c9d4a4585719dc4bb304e648faba6b1d212be74c
+tree eea34c829088bd51c5004aa9f824876690be950a
+parent 445c9f0b57eaf441bb59211fde220c4f73894e73
+author LarryKwon <65128957+LarryKwon@users.noreply.github.com> 2022-12-07 02:37:39 +0900
+committer GitHub <noreply@github.com> 2022-12-07 02:37:39 +0900
+
+    jenkins ci-cd (#51)
+    
+    * test
+    
+    * Dockerfile 생성
+    
+    * fix Dockefile add env
+    
+    * change log level to info
+    
+    * change log level to debug
+    
+    * test pass to connect aws rds
+    
+    * temporary include applicaiton-oauth.properties
+
+:100644 100644 e29d9e113b8a7da72b8003431531ff7cc38b8eee 066c868f3ca06a7eeb3ad4a513996daa48ebd7ba M	.gitignore
+:000000 100644 0000000000000000000000000000000000000000 12d1c7210f9c15cf05d08fb2354df95512d10e13 A	Dockerfile
+:100644 100644 4febc4bc9803f4f48206b5bc03d5850a853746f2 3181827e73b50905c5e2b7cbdf466d2f3bc4c563 M	build.gradle
+:000000 100644 0000000000000000000000000000000000000000 ac55072aad72652aa27865be5b176226a97f3128 A	eroom-key.pem
+:000000 100644 0000000000000000000000000000000000000000 4788792eac4d1b60b5e8ff388bfa9b6de6380418 A	src/main/java/com/project/Project/cicdtest
+:000000 100644 0000000000000000000000000000000000000000 9794498d89c6e96f65c589e0bf6f557d23d5143e A	src/main/resources/application-oauth.properties

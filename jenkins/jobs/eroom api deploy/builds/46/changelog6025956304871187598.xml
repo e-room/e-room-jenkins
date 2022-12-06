@@ -1,0 +1,11 @@
+commit 643678bb04a0f1934b0138a5aae17561879d80e6
+tree 518b057d58d98b1a4c8ff21fda6768fa0db756f1
+parent 9f8baefbcaea354490d0d01f2e8d3dcd53ee3fc4
+author larrykwon <koallarry11@kaist.ac.kr> 2022-09-04 20:28:12 +0900
+committer larrykwon <koallarry11@kaist.ac.kr> 2022-09-04 20:28:12 +0900
+
+    test pass to connect aws rds
+
+
+:100644 100644 4f7b634f8628d7211f2e6c4ae527dbd3331eee7f bfa5c28c8b030b26b61f38825734d0ca1ce87c04 M	src/main/java/com/project/Project/config/auth/SecurityConfig.java
+:100644 100644 a5312d6a759794cdd8532692a7816c7fa5bb667b 45fb794c3d4fc7f5a4ac15ac0a386becd9b2dd2b M	src/main/resources/application.yml

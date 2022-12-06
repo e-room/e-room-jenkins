@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-03 20:22:37.202 UTC</timestamp>
+  <md5sum>f7db195f7f4dba812c709348a8b3bfd3</md5sum>
+  <fileName>Credential id=github name=github</fileName>
+  <usages>
+    <entry>
+      <string>eroom api deploy</string>
+      <ranges>20,22-30,32-54</ranges>
+    </entry>
+    <entry>
+      <string>github_pull</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
