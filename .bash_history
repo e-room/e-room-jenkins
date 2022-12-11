@@ -789,3 +789,446 @@ cd ..
 su root
 sudo passwd root
 su root
+ls
+cd jenkins-docker
+docker-compose up
+ls
+cd updates
+ls
+cd ..
+cd users
+ls
+cat users.xml
+docker-compose up -d
+cd ..
+ls
+ls -a
+ls  -l
+cat config.xml 
+cat docker-compose.yml 
+ls
+cd workspace
+ls
+cat config.xml
+vi config.xml
+sudo vi config.xml
+cd docker_test
+ls
+cd ..
+cd secrets
+cd users
+ls
+ls -l
+cd ..
+ls -al
+cd ..
+ls -al
+cd workspace
+ls
+ls -al
+cd jobs
+ls
+cd ..
+cd plugins
+ls
+docker-compose down
+docker-compose up
+cd ..
+ls
+ls -al
+cd ..
+ls
+ls -al
+cd workspace
+ls
+ls -al
+cd eroom-api-docker
+ls
+cd ..
+mkdir backup
+cd workspace
+mv -r eroom-api-docker ../backup
+mv -r eroom-api-docker/ ../backup
+cp -r eroom-api-docker/ ../backup
+cd ../backup
+ls
+cd ..
+cd workspac
+cd workspace/
+ls
+ls -al
+rm -rf 
+ls
+rm -rf *
+ls
+sudo rm -rf *
+ls
+cd ..
+docker-compose down
+ls
+cd ..
+ls
+docker-compose up -d
+cd jenkins-docker/
+ls
+cat docker-compose.yml 
+cd jenkins-dockerfile/
+ls
+docker
+ls
+cat Dockerfile
+cd ..
+ls
+ls -al
+cat docker-compose
+cat docker-compose.yml 
+grep jenkins-dockerfile
+ls
+docker images
+mkdir jenkins
+mv -r * jenkins
+rm jenkins
+rm -rf jenkins
+ls
+cd ..
+ls
+cd data
+ls
+cd ..
+cd jenkins
+mkdir jenkins
+cd jenkins-docker
+cd ..
+cp -r jenkins-docker jenkins
+cd jenkins
+cd ..
+sudo cp -r jenkins-docker jenkins
+cd jenkins
+ls
+cd jenkins-docker
+ls
+cd ..
+cd jenkins-docker
+cp docker-compose.yml ../
+cd -r jenkins-dockerfile/ ../
+cp -r jenkins-dockerfile/ ../
+cd ..
+ls
+cd jenkins-docker
+rm -rf *
+sudo rm -rf *
+ls
+cd ..
+ls
+cat docker-compose.yml
+cd jenkins
+ls
+cd jenkins-docker
+ls
+rm docker-compose.yml
+rm -r jenkins-dockerfile
+ls
+cd ..
+cd jenkins/jenkins-docker/
+mv * ../
+sudo mv * ../
+ls
+cd ..
+ls
+cd ..
+ls
+vi docker-compose.yml
+cd jenkins
+ls
+cd workspaace
+cd workspace
+ls
+cd backup
+ls
+cd ..
+cd backupd
+cd backup/
+ls
+cd ...
+cd ../
+ls
+mv backup ../
+sudo mv backup ../
+ls
+cd ..
+ls
+cd jenkins-dockerfile
+ls
+cd ..
+cat docker-compose.yml 
+cp docker-compose.yml docker-compose-2.yml
+ls
+sudo vi docker-compose.yml 
+cat docker-compose.yml 
+cd jenkins-docker
+ls
+cd ..
+docker-compose up -d
+docker ps
+docker-compose down
+ls
+cd jenkins
+ls
+cd plugins
+ls
+cd ..
+ls
+cp jenkins jenkins-2
+cp -r jenkins jenkins-2
+sudo cp -r jenkins jenkins-2
+ls
+docker-compose up
+ls
+cd jenkins
+ls
+sudo vi config.xml
+cd workspace
+ls
+cd ..
+cd jenkins-docker
+ls
+cd ..
+cat docker-compose.yml
+rm docker-compose.yml
+cd ..
+ls
+docker images
+mv backup jenkins/workspace
+sudo mv backup jenkins/workspace
+ls
+cd jenkins
+ls
+cd workspace
+ls
+cd backup
+ls
+cd eroom-api-docker
+ls
+cd ..
+ls
+cd mv * ../
+mv * ../
+sudo mv 8 ../
+sudo mv * ../
+ls
+cd ..
+ls
+rm -rf backup
+sudo rm -r backup
+cd ..
+ls
+cd jenkins-docker
+ls
+cd  ..
+rm -r jenkins-docker
+cd users
+ls
+cat users.xml
+Wq
+cd ..
+ls
+cat config.xml
+cd ..
+ls
+docker-compose up -d
+ls
+docker exec -it jenkins /bin/bash
+docker ps
+docker exec -it jenkins-compose /bin/bash
+ls
+cd jenkins
+ls
+cd workspace
+ls
+cd eroom-api-docker
+ls
+cd ..
+cd 'eroom api deploy'
+ls
+cd ..
+cd 'eroom api deploy@tmp'
+ls
+cd ..
+ls
+cd eroom-api-docker
+ls
+cd deploy
+ls
+cd ..
+cd eroom-api-dockerfile
+ls
+cd ..
+ls
+cd ../../
+ls
+cd ..
+ls
+cd jenkins
+ls
+cd workspace
+ls
+cd ..
+ls
+cd jenkins-docker
+ls
+cd ..
+rm -r jenkins-docker
+ls
+sudo rm -r jenkins-docker
+ls
+rm docker-compose-2.yml
+sudo rm -r jenkins-2
+ls
+docker-compose down
+docker-compose up -d
+git init
+git config user.email koallarry11@kaist.ac.kr
+git config user.name larrykwon
+git remote add origin https://github.com/e-room/e-room-jenkins.git
+git status
+git add .
+su root
+clear
+ls
+cd jenkins
+ls
+cd workspace
+ls
+cd eroom-api-docker
+ls
+cd eroom-api-dockerfile
+ls
+cd ..
+cd deploy
+ls
+docker images
+df -h
+cd ..
+ls
+cd 'eroom api deploy'
+ls 
+cd ..
+ls 0al
+ls -al
+cd 'eroom api deploy@tmp'
+ls
+cd ..
+ls
+cd 'eroom api deploy'
+ls
+cat Dockerfile
+docker ps
+docker exec -it jenkins /bin/bash
+docker exec -it jenkins-compose /bin/bash
+cd ..
+ls
+cd ..
+ls
+cat docker-compose.yml
+vi docker-compose.yml
+docker-compose down
+docker ps
+docker-compose up
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+ls
+cd jenkins-dockerfile
+ls
+cat Dockerfile
+vi Dockerfile 
+docker-compose down
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+cd ../ && cat docker-compose.yml
+vi docker-compose.yml 
+docker-compose down
+docker-compose up -d
+vi docker-compose.yml
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+cd jenkins-dockerfile/
+vi Dockerfile 
+cd ..
+docker-compose down
+docker-compose up 
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+vi docker-compose.yml 
+docker-compose down
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+cat docker-compose.yml 
+ls
+cd ..
+ls
+cd ubuntu/
+ls -l
+ls -a
+cd var
+cd /var/run
+ls
+cd docker
+ls
+cd ~
+ls
+vi docker-compose.yml 
+cd jenkins-dockerfile/
+cat Dockerfile 
+docker exec -it jenkins-compose /bin/bash
+vi Dockerfile 
+cat Dockerfile 
+docker-compose down
+cd ..
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+cd jenkins-dockerfile/
+vi Dockerfile 
+docker-compose down
+cd ..
+docker-compose up
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+cd jenkins-dockerfile/
+vi Dockerfile 
+dockeer-compose down
+docker-compose down
+cd ..
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+cat docker-compose.yml 
+cd jenkins-dockerfile/
+cat Dockerfile 
+vi Dockerfile 
+docker-compose down
+cd ..
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+vi docker-compose 
+vi docker-compose.yml 
+docker-compose down
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+cd jenkins-dockerfile/
+cat Dockerfile 
+vi Dockerfile 
+docker-compose down
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+ldd --version
+docker ps
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+docker images
+docker exec -it jenkins-compose /bin/bash
+vi docker-compose.yml 
+docker-compose down
+docker-compose up 0d
+docker-compose up -d
+docker exec -it jenkins-compose /bin/bash
+ls
+docker exec -it jenkins-compose /bin/bash

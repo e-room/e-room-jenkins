@@ -1,0 +1,12 @@
+commit 1689c6110b60dfcbd54f3f81fe8684768320819d
+tree 07f9c08f543648ef5ee19630047c3cfff13a3018
+parent c9d4a4585719dc4bb304e648faba6b1d212be74c
+author larrykwon <koallarry11@kaist.ac.kr> 2022-12-09 00:06:54 +0900
+committer larrykwon <koallarry11@kaist.ac.kr> 2022-12-09 00:06:54 +0900
+
+    Fix: build with ENV
+
+
+:100644 100644 12d1c7210f9c15cf05d08fb2354df95512d10e13 f9a957c8a422842aa7e50ae766e5450d5c67bd2d M	Dockerfile
+:100644 100644 2fb9aabfba6111301b7144430a7be03d38ded405 382309c2a6e18f089bf987d414736299cfcce349 M	src/main/java/com/project/Project/config/SecurityConfig.java
+:100644 100644 b11b07df56db85418fbab4c0f6a37e89727d24d0 4dca948199a0d7e9016daff3c835fccec827525a M	src/main/resources/application.yml

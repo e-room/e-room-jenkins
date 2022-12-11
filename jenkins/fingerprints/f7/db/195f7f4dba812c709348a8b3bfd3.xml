@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>eroom api deploy</string>
-      <ranges>20,22-30,32-54</ranges>
+      <ranges>20,22-30,32-60</ranges>
     </entry>
     <entry>
       <string>github_pull</string>

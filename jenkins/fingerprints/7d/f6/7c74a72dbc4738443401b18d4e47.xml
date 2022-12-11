@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>eroom api deploy</string>
-      <ranges>38-50,53-54</ranges>
+      <ranges>38-50,53-54,58-59</ranges>
     </entry>
     <entry>
       <string>docker-run</string>

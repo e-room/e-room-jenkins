@@ -11,12 +11,16 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:q!
-|2,0,1670345684,,"q!"
-:q
-|2,0,1670345682,,"q"
 :wq
-|2,0,1670343916,,"wq"
+|2,0,1670517457,,"wq"
+:Wq
+|2,0,1670515639,,"Wq"
+:q!
+|2,0,1670515624,,"q!"
+:q
+|2,0,1670515621,,"q"
+:qall
+|2,0,1670515618,,"qall"
 :wq!
 |2,0,1670343909,,"wq!"
 :wq!!
@@ -33,237 +37,298 @@
 # Registers:
 
 # File marks:
-'0  13  27  ~/docker-compose.yml
-|4,48,13,27,1670345684,"~/docker-compose.yml"
-'1  7  20  ~/jenkins-docker/workspace/config.xml
-|4,49,7,20,1670343920,"~/jenkins-docker/workspace/config.xml"
-'2  3  2  ~/.ssh/authorized_keys
-|4,50,3,2,1670341048,"~/.ssh/authorized_keys"
-'3  1  0  ~/eroom-key.pem
-|4,51,1,0,1670340659,"~/eroom-key.pem"
-'4  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,52,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
-'5  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,53,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
-'6  12  11  ~/jenkins-docker/docker-compose.yml
-|4,54,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
-'7  14  48  ~/jenkins-docker/docker-compose.yml
-|4,55,14,48,1662241063,"~/jenkins-docker/docker-compose.yml"
-'8  14  48  ~/jenkins-docker/docker-compose.yml
-|4,56,14,48,1662241063,"~/jenkins-docker/docker-compose.yml"
-'9  1  0  ~/jenkins-docker/workspace/docker-compose.yml
-|4,57,1,0,1662241046,"~/jenkins-docker/workspace/docker-compose.yml"
+'0  15  48  ~/docker-compose.yml
+|4,48,15,48,1670517457,"~/docker-compose.yml"
+'1  9  17  ~/jenkins-dockerfile/Dockerfile
+|4,49,9,17,1670516178,"~/jenkins-dockerfile/Dockerfile"
+'2  16  38  ~/docker-compose.yml
+|4,50,16,38,1670515641,"~/docker-compose.yml"
+'3  27  31  ~/docker-compose.yml
+|4,51,27,31,1670515624,"~/docker-compose.yml"
+'4  28  31  ~/docker-compose.yml
+|4,52,28,31,1670515624,"~/docker-compose.yml"
+'5  28  31  ~/docker-compose.yml
+|4,53,28,31,1670515624,"~/docker-compose.yml"
+'6  29  31  ~/docker-compose.yml
+|4,54,29,31,1670515624,"~/docker-compose.yml"
+'7  1  0  ~/docker-compose
+|4,55,1,0,1670515608,"~/docker-compose"
+'8  18  4  ~/jenkins-dockerfile/Dockerfile
+|4,56,18,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+'9  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,57,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
 
 # Jumplist (newest first):
--'  13  27  ~/docker-compose.yml
-|4,39,13,27,1670345684,"~/docker-compose.yml"
+-'  15  48  ~/docker-compose.yml
+|4,39,15,48,1670517457,"~/docker-compose.yml"
+-'  9  17  ~/jenkins-dockerfile/Dockerfile
+|4,39,9,17,1670516178,"~/jenkins-dockerfile/Dockerfile"
+-'  9  17  ~/jenkins-dockerfile/Dockerfile
+|4,39,9,17,1670516178,"~/jenkins-dockerfile/Dockerfile"
+-'  18  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,4,1670516161,"~/jenkins-dockerfile/Dockerfile"
+-'  18  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,4,1670516161,"~/jenkins-dockerfile/Dockerfile"
+-'  16  38  ~/docker-compose.yml
+|4,39,16,38,1670515641,"~/docker-compose.yml"
+-'  16  38  ~/docker-compose.yml
+|4,39,16,38,1670515641,"~/docker-compose.yml"
 -'  1  0  ~/docker-compose.yml
-|4,39,1,0,1670345632,"~/docker-compose.yml"
--'  7  20  ~/jenkins-docker/workspace/config.xml
-|4,39,7,20,1670343920,"~/jenkins-docker/workspace/config.xml"
--'  7  20  ~/jenkins-docker/workspace/config.xml
-|4,39,7,20,1670343920,"~/jenkins-docker/workspace/config.xml"
--'  1  0  ~/jenkins-docker/workspace/config.xml
-|4,39,1,0,1670343867,"~/jenkins-docker/workspace/config.xml"
--'  1  0  ~/jenkins-docker/workspace/config.xml
-|4,39,1,0,1670343867,"~/jenkins-docker/workspace/config.xml"
--'  3  2  ~/.ssh/authorized_keys
-|4,39,3,2,1670341048,"~/.ssh/authorized_keys"
--'  3  2  ~/.ssh/authorized_keys
-|4,39,3,2,1670341048,"~/.ssh/authorized_keys"
--'  3  2  ~/.ssh/authorized_keys
-|4,39,3,2,1670341048,"~/.ssh/authorized_keys"
--'  3  2  ~/.ssh/authorized_keys
-|4,39,3,2,1670341048,"~/.ssh/authorized_keys"
--'  1  0  ~/.ssh/authorized_keys
-|4,39,1,0,1670340748,"~/.ssh/authorized_keys"
--'  1  0  ~/.ssh/authorized_keys
-|4,39,1,0,1670340748,"~/.ssh/authorized_keys"
--'  1  0  ~/.ssh/authorized_keys
-|4,39,1,0,1670340748,"~/.ssh/authorized_keys"
--'  1  0  ~/.ssh/authorized_keys
-|4,39,1,0,1670340748,"~/.ssh/authorized_keys"
--'  1  0  ~/eroom-key.pem
-|4,39,1,0,1670340659,"~/eroom-key.pem"
--'  1  0  ~/eroom-key.pem
-|4,39,1,0,1670340659,"~/eroom-key.pem"
--'  1  0  ~/eroom-key.pem
-|4,39,1,0,1670340659,"~/eroom-key.pem"
--'  1  0  ~/eroom-key.pem
-|4,39,1,0,1670340659,"~/eroom-key.pem"
--'  1  0  ~/eroom-key.pem
-|4,39,1,0,1670340659,"~/eroom-key.pem"
--'  1  0  ~/eroom-key.pem
-|4,39,1,0,1670340659,"~/eroom-key.pem"
--'  1  0  ~/eroom-key.pem
-|4,39,1,0,1670340659,"~/eroom-key.pem"
--'  1  0  ~/eroom-key.pem
-|4,39,1,0,1670340659,"~/eroom-key.pem"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  37  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,37,1662273838,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  3  32  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,3,32,1662242029,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  1  0  ~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile
-|4,39,1,0,1662241983,"~/jenkins-docker/workspace/eroom api deploy/eroom-api-docker/eroom-api-dockerfile/Dockerfile"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
--'  12  11  ~/jenkins-docker/docker-compose.yml
-|4,39,12,11,1662241084,"~/jenkins-docker/docker-compose.yml"
+|4,39,1,0,1670515626,"~/docker-compose.yml"
+-'  1  0  ~/docker-compose.yml
+|4,39,1,0,1670515626,"~/docker-compose.yml"
+-'  1  0  ~/docker-compose.yml
+|4,39,1,0,1670515626,"~/docker-compose.yml"
+-'  27  31  ~/docker-compose.yml
+|4,39,27,31,1670515624,"~/docker-compose.yml"
+-'  28  31  ~/docker-compose.yml
+|4,39,28,31,1670515624,"~/docker-compose.yml"
+-'  28  31  ~/docker-compose.yml
+|4,39,28,31,1670515624,"~/docker-compose.yml"
+-'  29  31  ~/docker-compose.yml
+|4,39,29,31,1670515624,"~/docker-compose.yml"
+-'  28  31  ~/docker-compose.yml
+|4,39,28,31,1670515624,"~/docker-compose.yml"
+-'  29  31  ~/docker-compose.yml
+|4,39,29,31,1670515624,"~/docker-compose.yml"
+-'  15  49  ~/docker-compose.yml
+|4,39,15,49,1670515612,"~/docker-compose.yml"
+-'  15  49  ~/docker-compose.yml
+|4,39,15,49,1670515612,"~/docker-compose.yml"
+-'  15  49  ~/docker-compose.yml
+|4,39,15,49,1670515612,"~/docker-compose.yml"
+-'  15  49  ~/docker-compose.yml
+|4,39,15,49,1670515612,"~/docker-compose.yml"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  1  0  ~/docker-compose
+|4,39,1,0,1670515608,"~/docker-compose"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  17  4  ~/jenkins-dockerfile/Dockerfile
+|4,39,17,4,1670515472,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515452,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  18  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,18,0,1670515216,"~/jenkins-dockerfile/Dockerfile"
+-'  20  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,20,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
+-'  19  0  ~/jenkins-dockerfile/Dockerfile
+|4,39,19,0,1670515163,"~/jenkins-dockerfile/Dockerfile"
 
 # History of marks within files (newest to oldest):
 
 > ~/docker-compose.yml
-	*	1670345682	0
-	"	13	27
-	^	13	28
-	.	13	28
+	*	1670517456	0
+	"	15	48
+	^	15	49
+	.	16	0
 	+	13	28
+	+	15	49
+	+	15	57
+	+	15	113
+	+	15	49
+	+	27	31
+	+	15	49
+	+	16	0
+
+> ~/jenkins-dockerfile/Dockerfile
+	*	1670516177	0
+	"	9	17
+	^	9	18
+	.	9	17
+	+	6	512
+	+	6	40
+	+	6	44
+	+	6	62
+	+	6	87
+	+	6	112
+	+	6	126
+	+	6	141
+	+	6	156
+	+	6	187
+	+	6	295
+	+	6	308
+	+	6	436
+	+	6	41
+	+	6	153
+	+	6	188
+	+	6	297
+	+	6	535
+	+	6	517
+	+	18	27
+	+	6	41
+	+	6	40
+	+	12	4
+	+	7	4
+	+	8	4
+	+	10	4
+	+	11	4
+	+	12	4
+	+	13	3
+	+	14	3
+	+	15	3
+	+	16	4
+	+	17	3
+	+	18	32
+	+	19	0
+	+	21	29
+	+	6	38
+	+	7	4
+	+	8	4
+	+	10	4
+	+	11	4
+	+	15	4
+	+	16	4
+	+	9	17
+
+> ~/docker-compose
+	*	1670515606	0
+	"	1	0
 
 > ~/jenkins-docker/workspace/config.xml
 	*	1670343918	0

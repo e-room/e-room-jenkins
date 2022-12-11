@@ -30,7 +30,7 @@
             </org.jenkinsci.plugins.gwt.GenericVariable>
           </genericVariables>
           <regexpFilterText>$ref</regexpFilterText>
-          <regexpFilterExpression>^(refs/heads/ci-cd-test)</regexpFilterExpression>
+          <regexpFilterExpression>^(refs/heads/develop)</regexpFilterExpression>
           <printPostContent>false</printPostContent>
           <printContributedVariables>false</printContributedVariables>
           <causeString>Generic Cause</causeString>

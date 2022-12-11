@@ -1,0 +1,11 @@
+commit d17d54d16bf0e16d9f6855261b532899d6c7f82e
+tree d261165157bd7fec9be65576d3036a184c10e65c
+parent 90c60bb775f3493939281b121427e5e043c5f84f
+author larrykwon <koallarry11@kaist.ac.kr> 2022-12-11 22:12:43 +0900
+committer larrykwon <koallarry11@kaist.ac.kr> 2022-12-11 22:12:43 +0900
+
+    Fix: make healthy check api
+
+
+:100644 100644 f1dc5020947cf91c6c08c9519a2171b38a2e872d 704d6e9deb4c4f0c41740e9797a7b726ca79a2e5 M	src/BuildingGen/BuildingTestdataGen.ts
+:000000 100644 0000000000000000000000000000000000000000 b3b499f74d69fb8856fe85b8ba63e0dadf41542e A	src/main/java/com/project/Project/controller/MainController.java

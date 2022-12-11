@@ -1,0 +1,27 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag>
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2759.v87459c4eea_ca_">
+    <parentIds>
+      <string>36</string>
+    </parentIds>
+    <id>37</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.BodyInvocationAction/>
+    <wf.a.LabelAction>
+      <displayName>Docker Run</displayName>
+    </wf.a.LabelAction>
+    <wf.a.TimingAction>
+      <startTime>1670766922464</startTime>
+    </wf.a.TimingAction>
+    <wf.a.TagsAction>
+      <tags>
+        <entry>
+          <string>STAGE_STATUS</string>
+          <string>SKIPPED_FOR_FAILURE</string>
+        </entry>
+      </tags>
+    </wf.a.TagsAction>
+  </actions>
+</Tag>
